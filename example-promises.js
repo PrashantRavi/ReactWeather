@@ -5,6 +5,7 @@ function getTempPromise(location) {
     });
 }
 
+
 getTempPromise('Delhi').then(function (temp){
   console.log('Promise success ',temp);
 },function(err){
